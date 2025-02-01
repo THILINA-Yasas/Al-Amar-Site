@@ -844,7 +844,71 @@ body {
     align-items: center;
   }
 
-  .footer-section {
-    margin: 10px 0;
-  }
+    .footer-section {
+        margin: 10px 0;
+    }
 }
+
+
+
+
+/* General Styles */
+.process-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .process-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .section-subtitle {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 50px;
+  }
+  
+  /* Steps Grid */
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .step-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .step-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .step-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .step-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .step-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
