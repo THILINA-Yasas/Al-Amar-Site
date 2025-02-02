@@ -124,3 +124,25 @@ document.addEventListener("DOMContentLoaded", () => {
     updateCounter();
   }
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const featureItems = document.querySelectorAll(".feature-item");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.5 } // Trigger when 50% of the element is visible
+  );
+
+  featureItems.forEach((item) => {
+    observer.observe(item);
+  });
+});
