@@ -325,8 +325,13 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   margin: 0;
+}
+
+
+.hero-header-main {
+  height: 700px;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -844,336 +849,320 @@ body {
     align-items: center;
   }
 
-    .footer-section {
-        margin: 10px 0;
-    }
+  .footer-section {
+    margin: 10px 0;
+  }
 }
-
-
-
 
 /* General Styles */
 .process-section {
-    padding: 80px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .process-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .section-subtitle {
-    font-size: 1.5rem;
-    color: #666;
-    margin-bottom: 50px;
-  }
-  
-  /* Steps Grid */
-  .steps-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-  }
-  
-  .step-item {
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .step-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .step-icon {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .step-item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    color: #333;
-  }
-  
-  .step-item p {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.6;
-  }
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.process-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
 
+.section-subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 50px;
+}
 
-  /*counter now */
+/* Steps Grid */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
 
-  .counter-section {
-    padding: 80px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .counter-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .section-description {
-    font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 50px;
-  }
-  
-  /* Counters Grid */
-  .counters-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-  }
-  
-  .counter-item {
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .counter-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .counter-icon {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .counter-item h3 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    color: #03095f;
-  }
-  
-  .counter-item p {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.6;
-  }
+.step-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.step-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
+.step-icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
 
+.step-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
 
+.step-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
 
-  /* General Styles */
+/*counter now */
+
+.counter-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.counter-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* Counters Grid */
+.counters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.counter-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.counter-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.counter-icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.counter-item h3 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #03095f;
+}
+
+.counter-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* General Styles */
 .contact-section {
-    padding: 80px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .contact-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .section-description {
-    font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 50px;
-  }
-  
-  /* Contact Content Layout */
-  .contact-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    text-align: left;
-  }
-  
-  .contact-form,
-  .contact-info {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  /* Contact Form Styles */
-  .contact-form .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 15px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    outline: none;
-    transition: border-color 0.3s ease;
-  }
-  
-  .contact-form input:focus,
-  .contact-form textarea:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
-  }
-  
-  .contact-form textarea {
-    resize: vertical;
-    min-height: 150px;
-  }
-  
-  .contact-form button {
-    padding: 15px 30px;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #e29e0b;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Contact Info Styles */
-  .contact-info .map {
-    margin-bottom: 30px;
-  }
-  
-  .contact-info .description {
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-info .description h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    color: #333;
-  }
-  
-  .contact-info .description p {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 10px;
-  }
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
 
+.section-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 50px;
+}
 
+/* Contact Content Layout */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: left;
+}
 
+.contact-form,
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
 
+/* Contact Form Styles */
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
 
-  /* Jobs Card Styles */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-form button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e29e0b;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Info Styles */
+.contact-info .map {
+  margin-bottom: 30px;
+}
+
+.contact-info .description {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info .description h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-info .description p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Jobs Card Styles */
 .jobs-section {
-    padding: 80px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .jobs-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .section-description {
-    font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 50px;
-  }
-  
-  /* Jobs Grid */
-  .jobs-grid {
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-  }
-  
-  /* Job Tile */
-  .job-tile {
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: left;
-  }
-  
-  .job-tile:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .job-tile h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color:  #010027;
-  }
-  
-  .job-tile .location {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 15px;
-  }
-  
-  .job-tile .description {
-    font-size: 1rem;
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  /* Apply Button */
-  .apply-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #e29e0b;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .apply-button:hover {
-    background-color: #9c6b01;
-  }
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jobs-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* Jobs Grid */
+.jobs-grid {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Job Tile */
+.job-tile {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.job-tile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.job-tile h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #010027;
+}
+
+.job-tile .location {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.job-tile .description {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Apply Button */
+.apply-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e29e0b;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #9c6b01;
+}
