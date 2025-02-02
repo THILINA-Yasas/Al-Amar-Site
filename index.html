@@ -42,6 +42,8 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="js/mail.js"></script>
 </head>
 
 
@@ -310,7 +312,7 @@
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
         <div class="text-center">
-        
+
             <h1 class="mb-5" style="font-family: sans-serif; font-weight: 400;">Our Client Say !!</h1>
         </div>
         <div class="owl-carousel testimonial-carousel position-relative">
@@ -371,26 +373,26 @@
                 </div>
                 <div class="col-md-6">
 
-                    <form>
+                    <form id="contactForm">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control bg-transparent" id="name"
-                                        placeholder="Your Name">
+                                        placeholder="Your Name" required>
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="email" class="form-control bg-transparent" id="email"
-                                        placeholder="Your Email">
+                                        placeholder="Your Email" required>
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-floating date" id="date3" data-target-input="nearest">
                                     <input type="text" class="form-control bg-transparent datetimepicker-input"
-                                        id="Subject" placeholder="Subject" />
+                                        id="subject" placeholder="Subject" required />
                                     <label for="datetime">Subject</label>
                                 </div>
                             </div>
@@ -400,15 +402,20 @@
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control bg-transparent" placeholder="Special Request"
-                                        id="message" style="height: 100px"></textarea>
+                                        id="message" style="height: 100px" required></textarea>
                                     <label for="message">Type your message</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-outline-light w-100 py-3" type="submit">Send now</button>
+                                <button class="btn btn-outline-light w-100 py-3" type="submit">Send
+                                    now</button>
                             </div>
                         </div>
                     </form>
+
+                    <script>
+                        document.getElementById("contactForm").addEventListener("submit", sendEmail);
+                    </script>
                 </div>
                 </form>
             </div>
