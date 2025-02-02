@@ -879,6 +879,10 @@ body {
   margin: 0 auto;
 }
 
+.enquiries {
+  max-width: 700px !important;
+}
+
 .process-section h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -1180,9 +1184,7 @@ body {
   background-color: #9c6b01;
 }
 
-
 /*blog content*/
-
 
 /* General Styles */
 .blog-content-section {
@@ -1269,10 +1271,6 @@ body {
 .blog-text ul li {
   margin-bottom: 10px;
 }
-
-
-
-
 
 .erecruitment-section {
   padding: 80px 20px;
