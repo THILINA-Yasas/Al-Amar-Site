@@ -269,11 +269,16 @@
     border-top: 1px solid #010027;
   }
 
-  .navbar-light .navbar-nav .nav-link,
   .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 10px 0;
     margin-left: 0;
     color: var(--light) !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+    margin-left: 0;
+    color: black !important;
   }
 
   .navbar-light .navbar-brand img {
@@ -328,7 +333,6 @@
   height: 450px;
   margin: 0;
 }
-
 
 .hero-header-main {
   height: 700px;
