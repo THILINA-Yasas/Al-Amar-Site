@@ -200,6 +200,15 @@
   color: #ffffff;
 }
 
+.btn-third {
+  color: white;
+}
+
+.btn-third:hover {
+  color: white;
+  background-color: black;
+}
+
 .btn-square {
   width: 38px;
   height: 38px;
