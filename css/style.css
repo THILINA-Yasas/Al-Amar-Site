@@ -332,6 +332,41 @@
   }
 }
 
+
+
+
+.blog-hero-header {
+  background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
+    url(../img/ku3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin: 0;
+}
+
+.contact-hero-header {
+  background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
+    url(../img/ku2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin: 0;
+}
+
+
+.hire-hero-header {
+  background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
+    url(../img/ku4.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin: 0;
+}
+
+
 /*** Hero Header ***/
 .hero-header {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
@@ -345,13 +380,16 @@
 
 .about-hero-header {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
-    url(../img/ku2.jpg);
+    url(../img/ku1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
   margin: 0;
 }
+
+
+
 
 .hero-header-main {
   height: 700px;
