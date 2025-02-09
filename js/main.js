@@ -146,3 +146,34 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(item);
   });
 });
+
+
+
+
+
+// Function to animate numbers
+function animateNumber(element, targetNumber, duration) {
+  let startTime = null;
+
+  function updateNumber(timestamp) {
+    if (!startTime) startTime = timestamp;
+    const progress = timestamp - startTime;
+    const increment = Math.floor((targetNumber / duration) * progress);
+
+    if (increment < targetNumber) {
+      element.textContent = increment;
+      requestAnimationFrame(updateNumber);
+    } else {
+      element.textContent = targetNumber;
+    }
+  }
+
+  requestAnimationFrame(updateNumber);
+}
+
+// Animate the numbers
+const projectsElement = document.getElementById("projects");
+const awardsElement = document.getElementById("awards");
+
+animateNumber(projectsElement, 250, 2000); // 250 projects, 2 seconds duration
+animateNumber(awardsElement, 50, 2000); // 50 awards, 2 seconds duration
