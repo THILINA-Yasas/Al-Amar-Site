@@ -92,3 +92,43 @@
     
 })(jQuery);
 
+
+document.addEventListener("DOMContentLoaded", () => {
+    const counters = document.querySelectorAll(".counter");
+  
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            startCounter(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.5 } // Trigger when 50% of the element is visible
+    );
+  
+    counters.forEach((counter) => {
+      observer.observe(counter);
+    });
+  
+    function startCounter(counter) {
+      const target = +counter.getAttribute("data-target");
+      const duration = 2000; // Animation duration in milliseconds
+      const increment = target / (duration / 16); // Increment per frame (60fps)
+  
+      let current = 0;
+  
+      const updateCounter = () => {
+        current += increment;
+        if (current < target) {
+          counter.textContent = Math.ceil(current);
+          requestAnimationFrame(updateCounter);
+        } else {
+          counter.textContent = target;
+        }
+      };
+  
+      updateCounter();
+    }
+  });
