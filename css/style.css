@@ -1163,6 +1163,8 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  align-items: center;
+  justify-items: center;
 }
 
 .jobs-section h2 {
