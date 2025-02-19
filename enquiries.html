@@ -91,14 +91,36 @@
                 <div class="contact-form">
                     <form id="contactForm">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <input type="text" id="name" name="name" placeholder="First Name" required>
                         </div>
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Last Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="number" name="number" placeholder="Mobile Number" required>
+                        </div>
+
                         <div class="form-group">
                             <input type="email" id="email" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Hiring for:</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Select Hiring Role</option>
+                                <option value="select">House Nurse</option>
+                                <option value="item">House Boys</option>
+                                <option value="item">Goat Keeperk</option>
+                                <option value="item">Driver</option>
+                                <option value="item">House Maid</option>
+                                <option value="item">Farmer</option>
+          
+                            </select>
                         </div>
+
+
+
                         <div class="form-group">
                             <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
                         </div>
