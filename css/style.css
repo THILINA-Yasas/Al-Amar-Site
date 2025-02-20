@@ -2134,6 +2134,96 @@ h2 {
   line-height: 1.6;
 }
 
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #ffffff;
+}
+
+
+/* home about */
+
+
+.premium-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 40px;
+  background-color: #ffffff;
+ 
+}
+
+.premium-content {
+  max-width: 600px;
+}
+
+.premium-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.premium-content h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.premium-content p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.working-hours {
+  margin-bottom: 30px;
+}
+
+.working-hours p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.cta-button {
+  margin-top: 20px;
+}
+
+.cta-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 12px 24px;
+  background-color: #3498db;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button a:hover {
+  background-color: #2575fc;
+}
+
+.premium-image {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .process-steps {
@@ -2149,3 +2239,6 @@ h2 {
     margin-bottom: 40px;
   }
 }
+
+
+
