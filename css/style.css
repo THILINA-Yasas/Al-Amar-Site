@@ -480,13 +480,13 @@ h2 {
 
 .icon {
   font-size: 48px;
-  color: #0073b1; /* Match your brand color */
+  color: #e29e0b; /* Match your brand color */
   margin-bottom: 20px;
   transition: color 0.3s ease;
 }
 
 .service:hover .icon {
-  color: #005f8b; /* Darker shade on hover */
+  color: #010027; /* Darker shade on hover */
 }
 
 .service h3 {
@@ -1924,7 +1924,7 @@ h2 {
 
 .icon {
   font-size: 48px;
-  color: #0073b1; /* Match your brand color */
+  color:#e29e0b; /* Match your brand color */
   margin-bottom: 20px;
   transition: color 0.3s ease;
 }
@@ -2082,7 +2082,7 @@ h2 {
 
 .step-icon {
   font-size: 48px;
-  color: #0073b1; /* Match your brand color */
+  color: #e29e0b; /* Match your brand color */
   margin-bottom: 20px;
   background-color: #f9f9f9; /* Match section background */
   padding: 10px;
@@ -2093,7 +2093,7 @@ h2 {
 
 .step:hover .step-icon {
   transform: scale(1.1);
-  color: #005f8b; /* Darker shade on hover */
+  color: #010027; /* Darker shade on hover */
 }
 
 .step h3 {
