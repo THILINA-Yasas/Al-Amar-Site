@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tourist - Travel Agency HTML Template</title>
+    <title>Al Amal Man Power</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -30,6 +30,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/hire.js"></script>
 </head>
 
 <body>
@@ -54,14 +56,7 @@
                     <a href="index.html" class="nav-item nav-link ">Home</a>
                     <a href="about.html" class="nav-item nav-link ">About</a>
                     <a href="Blogs.html" class="nav-item nav-link ">Blog</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="Hire.html" class="dropdown-item">Hire</a>
-                            
-                          
-                        </div>
-                    </div>
+                    <a href="Hire.html" class="nav-item nav-link active">Hire</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 
@@ -100,7 +95,7 @@
             
               <p class="description">Providing essential in-home medical care,  and mobility assistance. This role ensures a safe and comfortable environment while promoting overall well-being and recovery.
             </p>
-              <a href="enquiries.html" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
+              <a href="enquiries.html" data-title="House Nurse" onclick="redirectToContact(this)"  class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
             </div>
       
             <!-- Job Tile 2 -->
@@ -109,7 +104,7 @@
           
               <p class="description">A House Boy is responsible for maintaining cleanliness and order within the household. Key duties include cleaning, laundry, and assisting with basic household tasks to ensure a well-managed and organized living space.
 </p>
-              <a href="enquiries.html" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
+              <a href="enquiries.html" data-title="House Boys" onclick="redirectToContact(this)" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
             </div>
       
             <!-- Job Tile 3 -->
@@ -118,7 +113,7 @@
             
               <p class="description">Dedicated to livestock care, the Goat Keeper oversees the feeding, health, and overall maintenance of goats. This role involves monitoring their well-being, managing grazing schedules, and ensuring proper shelter conditions.
                 .</p>
-              <a href="enquiries.html" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
+              <a href="enquiries.html" data-title="Goat Keeper" onclick="redirectToContact(this)" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
             </div>
       
             
@@ -129,7 +124,7 @@
              
                 <p class="description">Responsible for safe and efficient transportation, the Driver provides personal and business-related driving services. Duties include maintaining vehicle cleanliness, following road safety regulations, and ensuring punctual arrivals at destinations.
                     .</p>
-                <a href="enquiries.html" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
+                <a href="enquiries.html" data-title="Driver" onclick="redirectToContact(this)" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
               </div>
 
 
@@ -141,7 +136,7 @@
                 
                 <p class="description">A House Maid plays a vital role in household management, handling cleaning, laundry, and meal preparation. This position ensures a hygienic and comfortable home environment while assisting with various domestic duties.
                 </p>
-                <a href="enquiries.html" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
+                <a href="enquiries.html" data-title="House Maid" onclick="redirectToContact(this)" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
               </div>
 
 
@@ -152,7 +147,7 @@
                 </h3>
                
                 <p class="description">Managing all aspects of agricultural operations, the Farmer is responsible for planting, irrigation, and harvesting. This role focuses on crop health, soil management, and sustainable farming practices to optimize agricultural productivity.</p>
-                <a href="#" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
+                <a href="enquiries.html" data-title="Farmer" onclick="redirectToContact(this)" class="btn btn-third rounded-pill py-2 px-4">Hire Now</a>
               </div>
 
 

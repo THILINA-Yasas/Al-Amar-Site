@@ -332,9 +332,6 @@
   }
 }
 
-
-
-
 .blog-hero-header {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
     url(../img/ku3.jpg);
@@ -355,7 +352,6 @@
   margin: 0;
 }
 
-
 .hire-hero-header {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
     url(../img/ku4.png);
@@ -366,7 +362,6 @@
   margin: 0;
 }
 
-
 /*** Hero Header ***/
 .hero-header {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
@@ -376,7 +371,7 @@
   background-size: cover;
   height: 450px;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-hero-header {
@@ -388,9 +383,6 @@
   height: 450px;
   margin: 0;
 }
-
-
-
 
 .hero-header-main {
   height: 700px;
@@ -488,13 +480,13 @@ h2 {
 
 .icon {
   font-size: 48px;
-  color: #0073b1; /* Match your brand color */
+  color: #e29e0b; /* Match your brand color */
   margin-bottom: 20px;
   transition: color 0.3s ease;
 }
 
 .service:hover .icon {
-  color: #005f8b; /* Darker shade on hover */
+  color: #010027; /* Darker shade on hover */
 }
 
 .service h3 {
@@ -1045,9 +1037,6 @@ body {
   line-height: 1.6;
 }
 
-
-
-
 /* General Styles */
 .contact-section {
   padding: 80px 20px;
@@ -1089,6 +1078,26 @@ body {
 /* Contact Form Styles */
 .contact-form .form-group {
   margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group select {
+  appearance: none; /* Remove default arrow */
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
 }
 
 .contact-form input,
@@ -1163,7 +1172,6 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  
 }
 
 .jobs-section h2 {
@@ -1596,8 +1604,6 @@ body {
   transform: scale(1.05);
 }
 
-
-
 /*teams newsection*/
 
 body {
@@ -1707,9 +1713,6 @@ h2 {
   }
 }
 
-
-
-
 body {
   font-family: Arial, sans-serif;
   margin: auto;
@@ -1770,10 +1773,7 @@ body {
   }
 }
 
-
-
 /*counter section*/
-
 
 body {
   font-family: Arial, sans-serif;
@@ -1784,7 +1784,11 @@ body {
 
 .success-section {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #e9e9e9, #e7e7e7); /* Gradient background */
+  background: linear-gradient(
+    135deg,
+    #e9e9e9,
+    #e7e7e7
+  ); /* Gradient background */
   color: #fff;
   text-align: center;
 }
@@ -1837,7 +1841,8 @@ h2 {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -1867,7 +1872,6 @@ h2 {
   }
 }
 
-
 /*New home about section */
 
 body {
@@ -1892,7 +1896,7 @@ h2 {
   font-size: 36px;
   color: #333;
   margin-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .description {
@@ -1920,7 +1924,7 @@ h2 {
 
 .icon {
   font-size: 48px;
-  color: #0073b1; /* Match your brand color */
+  color:#e29e0b; /* Match your brand color */
   margin-bottom: 20px;
   transition: color 0.3s ease;
 }
@@ -1952,9 +1956,6 @@ h2 {
     margin-bottom: 30px;
   }
 }
-
-
-
 
 body {
   font-family: Arial, sans-serif;
@@ -2022,11 +2023,6 @@ h2 {
   }
 }
 
-
-
-
-
-
 /* Our Process */
 body {
   font-family: Arial, sans-serif;
@@ -2066,7 +2062,7 @@ h2 {
 }
 
 .process-steps::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 40px; /* Adjust based on icon size */
   left: 50%;
@@ -2086,7 +2082,7 @@ h2 {
 
 .step-icon {
   font-size: 48px;
-  color: #0073b1; /* Match your brand color */
+  color: #e29e0b; /* Match your brand color */
   margin-bottom: 20px;
   background-color: #f9f9f9; /* Match section background */
   padding: 10px;
@@ -2097,7 +2093,7 @@ h2 {
 
 .step:hover .step-icon {
   transform: scale(1.1);
-  color: #005f8b; /* Darker shade on hover */
+  color: #010027; /* Darker shade on hover */
 }
 
 .step h3 {
@@ -2110,6 +2106,77 @@ h2 {
   font-size: 16px;
   color: #666;
   line-height: 1.6;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #ffffff;
+}
+
+/* home about */
+
+.premium-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 40px;
+  background-color: #ffffff;
+}
+
+.premium-content {
+  max-width: 600px;
+}
+
+.premium-content h3 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.premium-content p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.working-hours {
+  margin-bottom: 30px;
+}
+
+.working-hours p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.cta-button {
+  margin-top: 20px;
+}
+
+.cta-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 12px 24px;
+  background-color: #3498db;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button a:hover {
+  background-color: #2575fc;
+}
+
+.premium-image {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Responsive Design */

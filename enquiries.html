@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tourist - Travel Agency HTML Template</title>
+    <title>Al Amal Man Power</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -34,6 +34,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <script src="js/mail.js"></script>
+    <script src="js/enquiries.js"></script>
 </head>
 
 <body>
@@ -57,14 +58,7 @@
                     <a href="index.html" class="nav-item nav-link ">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="Blogs.html" class="nav-item nav-link">Blog</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="Hire.html" class="dropdown-item">Hire</a>
-                         
-
-                        </div>
-                    </div>
+                    <a href="Hire.html" class="nav-item nav-link">Hire</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
 
@@ -98,14 +92,47 @@
                 <div class="contact-form">
                     <form id="contactForm">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <input type="text" id="name" name="name" placeholder="First Name" required>
                         </div>
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Last Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="number" name="number" placeholder="Mobile Number" required>
+                        </div>
+
                         <div class="form-group">
                             <input type="email" id="email" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="jobs-titles">Hiring for:</label>
+                            <select id="jobs-titles" name="jobs-titles" required>
+                                <option value="" disabled selected>Select Hiring Role</option>
+                                <option value="House Nurse">House Nurse</option>
+                                <option value="House Boys">House Boys</option>
+                                <option value="Goat Keeper">Goat Keeper</option>
+                                <option value="Driver">Driver</option>
+                                <option value="House Maid">House Maid</option>
+                                <option value="Farmer">Farmer</option>
+          
+                            </select>
                         </div>
+
+
+                        <div class="form-group">
+                            <label for="subject">Work Experience:</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Select Experience</option>
+                                <option value="select">Beginner</option>
+                                <option value="item">Experienced</option>
+                             
+          
+                            </select>
+                        </div>
+
+
                         <div class="form-group">
                             <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
                         </div>
